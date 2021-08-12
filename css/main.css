@@ -17,7 +17,7 @@
 }
 main{
     height: 100%;
-    margin: 4% 2%;
+    margin: 2% 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,6 +135,11 @@ img{
     border-top: 1px solid var(--gray-four)  ;
     
 }
+.contact{
+    font-family: var(--font-one);
+    font-size: 0.75em;
+    font-weight: 600;
+}
 .total p {
     margin-top: 5px;
     font-family: var(--font-one);
@@ -148,5 +153,79 @@ img{
 }
 .mb{
     display: flex;
-    flex-direction: column;
+    
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid var(--gray-three);
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    
 }
+.mb:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+.text-label{
+font-family: var(--font-one);
+font-size: 0.62em;
+font-weight: 600;
+color: var(--gray-two);
+
+}
+
+.input-one{
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+
+    
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.shipping{
+    font-family: var(--font-one);
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.icons{
+padding: 5px;
+font-size: 18px !important;
+color: var(--gray-three);
+}
+.checkbox{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.checkbox label {
+    font-family: var(--font-one);
+    font-size: 0.6rem;
+    text-align: center;
+    margin-left: 10px;
+}
+.continue{
+  border-radius: 12px;
+    border: none;
+    left: 0;
+    width: 166px;
+    height: 54px;
+    background-color: var(--color-orange);
+}
+.button-one{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 300px;
+    align-self: center;
+}
+

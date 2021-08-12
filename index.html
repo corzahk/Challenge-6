@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Checkout Page</title>
 </head>
 <body>
@@ -69,52 +71,79 @@
         </div>
        </div>
         <div class="container__contact">
-            <p>Contact information</p>
+            <p class="contact">Contact information</p>
+       
+           <label class="text-label" for="email">E-mail</label>
+           <div class="mb">
+               
+               <span class="material-icons icons">email</span>
+               <input class="input-one" type="email" id="email">
+               
+           </div>
+            <label class="text-label" for="phone">Phone</label>
             <div class="mb">
-                <label for="email">E-mail</label>
-                <i></i>
-                <input type="email" id="email">
-            </div>
-            <div class="mb">
-                <label for="phone">Phone</label>
-                <i></i>
-                <input type="tel" id="phone">
+               
+                <span class="material-icons icons">
+                    phone
+                    </span>
+                <input class="input-one" type="tel" id="phone">
             </div>
             <p class="shipping">Shipping addres</p>
+
+           <label class="text-label" for="name">Full name</label>
             <div class="mb">
-                <label for="name">Full name</label>
-                <i></i>
-                <input type="text" id="name">
+                
+                <span class="material-icons icons">account_circle</span>
+                <input class="input-one" type="text" id="name">
             </div>
+            <label class="text-label" for="address">Address</label>
             <div class="mb">
-                <label for="address">Address</label>
-                <i></i>
-                <input type="text" id="address">
+                
+                <span class="material-icons icons">home</span>
+                <input class="input-one" type="text" id="address">
             </div>
+            <label class="text-label" for="city">City</label>
             <div class="mb">
-                <label for="city">City</label>
-                <i></i>
-                <input type="text" id="city">
+                
+                <span class="material-icons icons">location_city</span>
+                <input class="input-one" type="text" id="city">
             </div>
             <div class="two">
-                <div class="mb-2">
-                    <label for="country">Country</label>
-                    <i></i>
-                    <datalist id="country"></datalist>
+                <label class="text-label" for="country">Country</label>
+                <div class="mb ">
+                   
+                    <span class="material-icons icons">location_city</span>
+                    <input class="input-one" list="country">
+                    <datalist class="input-one" id="country">
+                          <option value="Mexico">
+                            <option value="Usa">
+                            <option value="Japan">
+                            <option value="Korea">
+                    </datalist>
                 </div>
-                <div class="mb-2">
-                    <label for="cp">Postal Code</label>
-                    <i></i>
-                    <input type="number" id="cp">
+                <label class="text-label" for="cp">Postal Code</label>
+                <div class="mb">
+                   
+                    <span class="material-icons icons">
+                        markunread_mailbox
+                        </span>
+                    <input  class="input-one" type="number" id="cp">
                 </div>
                 
             </div>
-            <div class="ckecbox">
+            <div class="checkbox">
                 <input type="checkbox" id="save">
                 <label for="save">Save this information for next time</label>
             </div>
-            <button type="submit">Continue</button>
+           
+        </div>
+        <div class="button-one">
+            <button class="continue" type="submit">Continue</button>
         </div>
     </main>
+   
+ <footer>
+     <p style="text-align: center;">corzahk</p>
+ </footer>
 </body>
 </html>
