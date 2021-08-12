@@ -222,6 +222,8 @@ color: var(--gray-three);
     font-family: var(--font-one);
     font-size: 1em;
 }
+
+
 .button-one{
     margin-top: 10px;
     display: flex;
@@ -231,4 +233,36 @@ color: var(--gray-three);
     width: 300px;
     align-self: center;
 }
+.two{
+    display: flex;
+    width: 300px;
+}
+.div-one{
+    width: 150px;
+    
+}
+.medium{
+    display: flex;
+    
+    align-items: center;
+    width: 145px;
+  
+    border: 1px solid var(--gray-three);
+    border-radius: 12px;
+    height: 30px;
+}
+.input-two{
+    width: 115px;
+    border: none;
+   
+    outline: none;
 
+   
+}
+.icontwo{
+    padding: 2px;
+}
+
+@media screen and (min-width:930px) {
+    
+}
