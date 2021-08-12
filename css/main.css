@@ -6,6 +6,7 @@
     --gray-one: #333333;
     --gray-two: #4f4f4f;
     --gray-three: #828282;
+    --gray-four: #BDBDBD;
     --gray-six: #f2f2f2;
 }
 
@@ -13,4 +14,139 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+main{
+    height: 100%;
+    margin: 4% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h2{
+    text-align: left;
+    margin-top: 5%;
+  
+    margin-bottom: 2%;
+    font-family: var(--font-one);
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+.container__products{
+ width: 300px;
+  height:40%;
+  display: flex;
+  flex-direction: column;
+  background-color:var(--gray-six) ;
+  
+  align-items: center;
+  border-radius: 12px;
+}
+.image-container{
+    width: 90px ;
+    height: 94px;
+}
+img{
+    width: 100%;
+    border-radius: 13px;
+}
+.products{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+.produts-details {
+    margin-left: 10%;
+}
+
+.product-name  {
+    font-family: var(--font-one);
+    font-size: 0.75em;
+    font-weight: 600;
+    color: var(--color-one);
+    
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.orange{
+   font-family: var(--font-one);
+   font-size: 0.75em;
+   color: var(--color-orange);
+    font-weight: 600;
+    text-align: center;
+}
+.gray{
+    font-family: var(--font-one);
+    font-size: 0.65em;
+    font-weight: 600;
+    color: var(--color-one);
+    text-decoration: line-through;
+}
+
+.container__total{
+    margin-top: 10%;
+    width: 90%;
+   
+   
+}
+.number-item{
+    margin-top: 8px;
+    border: 1px solid var(--gray-three);
+    width: 122px;
+    height: 49px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+.button{
+    width: 19px;
+    height: 19px;
+    border-radius: 4px;
+    background-color: #E0E0E0;
+    border: none;
+}
+.button p:hover{
+    color: black;
+}
+.button p {
+    color: var(--gray-three);
+    font-size: 1.2em;
+    text-align: center;
+}
+.num{
+    font-family: var(--font-one);
+    font-size: 1em;
+    font-weight: 600;
+}
+.total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between  ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid var(--gray-four)  ;
+    
+}
+.total p {
+    margin-top: 5px;
+    font-family: var(--font-one);
+    font-size: 0.75em;
+    font-weight: 600;
+}
+.container__contact{
+    margin-top: 15px;
+    width: 300px;
+    height: 50%;
+}
+.mb{
+    display: flex;
+    flex-direction: column;
 }

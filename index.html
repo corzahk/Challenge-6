@@ -8,46 +8,66 @@
     <title>Checkout Page</title>
 </head>
 <body>
+    
     <main>
+        
+       <div>
+        <h2>Checkout</h2>
         <div class="container__products">
+            
             <div class="products">
-                <img src="" alt="">
+               <div class="image-container">
+                   <img src="./img/photo1.png" alt="">
+                </div>
                 <div class="produts-details">
-                <p>Vintage Backbag</p>
-                <p>$54.99</p>
-                <p>$94.99</p>
+                <p class="product-name">Vintage Backbag</p>
+               <div class="price">
+                <p class="orange">$54.99</p>
+                <p class="gray">$94.99</p>
+               </div>
                 <div class="number-item">
-                    <button>-</button> 
-                        <label for="number-item">
+                    <button class="button"><p>-</p></button> 
+                        <label class="num" for="number-item">
                             1
                         </label>
-                        <button>+</button> 
+                        <button class="button"><p>+</p></button> 
                 </div>
                   </div>
             </div>
-            <div class="products"><img src="" alt="">
-                <div class="produts-details">
-                    <img src="" alt="">
-                    <p>Leve Shoes</p>
-                    <p>$74.99</p>
-                    <p>$124.99</p>
-                    <div class="number-item">
-                        <button>-</button>
-                        <label for="number-item">
+            <div class="products">
+                
+                <div class="image-container">
+                <img src="./img/photo2.png" alt="">
+                </div>
+                    <div class="produts-details">
+                        <p class="product-name">Leve Shoes</p>
+                       <div class="price">
+                        <p class="orange">$74.99</p>
+                        <p class="gray">$124.99</p>
+                       </div>
+                     <div class="number-item">
+                        <button type="submit" class="button"><p>-</p></button>
+                        <label  class="num" for="number-item">
                             1
                         </label>
-                        <button>+</button>
+                        <button type="submit" class="button"><p>+</p></button>
+                        </div>
                     </div>
-                </div>
             </div>
 
           <div class="container__total">
-              <p>Shipping</p>
-              <p>$19</p>
-              <p>Total</p>
-              <p>$148.98</p>
+              <div class="total">
+                <p>Shipping</p>
+                <p>$19</p>
+              </div>
+              <div class="total">
+                 <p>Total</p>
+                <p>$148.98</p>
+            </div>
+              
           </div>
         </div>
+       </div>
         <div class="container__contact">
             <p>Contact information</p>
             <div class="mb">
@@ -60,7 +80,7 @@
                 <i></i>
                 <input type="tel" id="phone">
             </div>
-            <p>Shipping addres</p>
+            <p class="shipping">Shipping addres</p>
             <div class="mb">
                 <label for="name">Full name</label>
                 <i></i>
