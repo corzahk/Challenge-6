@@ -218,6 +218,9 @@ color: var(--gray-three);
     width: 166px;
     height: 54px;
     background-color: var(--color-orange);
+    color: white;
+    font-family: var(--font-one);
+    font-size: 1em;
 }
 .button-one{
     margin-top: 10px;
