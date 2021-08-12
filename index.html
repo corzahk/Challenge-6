@@ -5,9 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Checkout Page</title>
 </head>
 <body>
-    
+    <main>
+        <div class="container__products">
+            <div class="products">
+                <img src="" alt="">
+                <div class="produts-details">
+                <p>Vintage Backbag</p>
+                <p>$54.99</p>
+                <p>$94.99</p>
+                <div class="number-item">
+                    <button>-</button> 
+                        <label for="number-item">
+                            1
+                        </label>
+                        <button>+</button> 
+                </div>
+                  </div>
+            </div>
+            <div class="products"><img src="" alt="">
+                <div class="produts-details">
+                    <img src="" alt="">
+                    <p>Leve Shoes</p>
+                    <p>$74.99</p>
+                    <p>$124.99</p>
+                    <div class="number-item">
+                        <button>-</button>
+                        <label for="number-item">
+                            1
+                        </label>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+
+          <div class="container__total">
+              <p>Shipping</p>
+              <p>$19</p>
+              <p>Total</p>
+              <p>$148.98</p>
+          </div>
+        </div>
+        <div class="container__contact">
+            <p>Contact information</p>
+            <div class="mb">
+                <label for="email">E-mail</label>
+                <i></i>
+                <input type="email" id="email">
+            </div>
+            <div class="mb">
+                <label for="phone">Phone</label>
+                <i></i>
+                <input type="tel" id="phone">
+            </div>
+            <p>Shipping addres</p>
+            <div class="mb">
+                <label for="name">Full name</label>
+                <i></i>
+                <input type="text" id="name">
+            </div>
+            <div class="mb">
+                <label for="address">Address</label>
+                <i></i>
+                <input type="text" id="address">
+            </div>
+            <div class="mb">
+                <label for="city">City</label>
+                <i></i>
+                <input type="text" id="city">
+            </div>
+            <div class="two">
+                <div class="mb-2">
+                    <label for="country">Country</label>
+                    <i></i>
+                    <datalist id="country"></datalist>
+                </div>
+                <div class="mb-2">
+                    <label for="cp">Postal Code</label>
+                    <i></i>
+                    <input type="number" id="cp">
+                </div>
+                
+            </div>
+            <div class="ckecbox">
+                <input type="checkbox" id="save">
+                <label for="save">Save this information for next time</label>
+            </div>
+            <button type="submit">Continue</button>
+        </div>
+    </main>
 </body>
 </html>
